@@ -1,0 +1,14 @@
+# Secrets and state
+.env
+*.tfvars
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# Data
+data/synthea/*
+!data/synthea/.gitkeep
+
+# Python
+venv/
+__pycache__/
